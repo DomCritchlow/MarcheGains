@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MarcheGains.API_CALL">
+    <Position X="10.75" Y="0.5" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAIAIIAAAAAACAAgAAAAgCAAAIAAAABAAA=</HashCode>
+      <FileName>API_CALL.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Stock1" />
+      <Property Name="Stockhist" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MarcheGains.Customer">
+    <Position X="0.5" Y="0.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAQBIAAQAgAACgAACQAAEAAAAAEA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Virtual_Banking" />
+      <Property Name="Stock" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MarcheGains.DataSeries">
+    <Position X="24" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAACAACAIAAAAAAAAAAIAAAAACAAA=</HashCode>
+      <FileName>DataSeries.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ohlc" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MarcheGains.ElementData">
+    <Position X="20.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACAAAAAAAAAAAAAAAACCAAAAAAAAQAAAAAACAA=</HashCode>
+      <FileName>ElementData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DataSeries1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MarcheGains.Investments">
+    <Position X="6.5" Y="9.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>IACAAAAAAAAAAAAgABgIAACAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Investments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarcheGains.ohlc">
+    <Position X="26.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAQAAAA=</HashCode>
+      <FileName>ohlc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarcheGains.Order">
+    <Position X="6.75" Y="5.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAEAAAAAAQAAAAAAAAAAAAAABAAAAABAAAAAAAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Investments1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MarcheGains.Positions">
+    <Position X="20.25" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Positions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarcheGains.Stock">
+    <Position X="6.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgCAAABAIAAAggAAAAQAgAoAACAAAQIAAAAECIA=</HashCode>
+      <FileName>Stock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarcheGains.Stockhist">
+    <Position X="16.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAQAAAAgAAAQAAAAAAAAAAAAAAAEAAACAAA=</HashCode>
+      <FileName>Stockhist.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ElementData" />
+      <Property Name="Positions1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MarcheGains.Virtual_Banking">
+    <Position X="0.5" Y="5.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AEgEAAIAAAAAAAAACAAAACAAACAAAAAAAAAGAgAAAAA=</HashCode>
+      <FileName>Virtual_Banking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

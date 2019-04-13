@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarcheGains", "MarcheGains\MarcheGains.csproj", "{C39886C0-CA90-4B3C-9E87-81534AA63C8E}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UML_Diagrams", "UML_Diagrams\UML_Diagrams.modelproj", "{A152D0B4-55C6-4FAE-A434-ADB1E2F37174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML_DiagramsLib", "UML_DiagramsLib\UML_DiagramsLib.csproj", "{5BAD69A7-063A-48E1-8482-D3E537EFE9F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarcheGainsTests", "MarcheGainsTests\MarcheGainsTests.csproj", "{EA3F6455-6787-4D25-8460-E5E001138112}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C39886C0-CA90-4B3C-9E87-81534AA63C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39886C0-CA90-4B3C-9E87-81534AA63C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39886C0-CA90-4B3C-9E87-81534AA63C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39886C0-CA90-4B3C-9E87-81534AA63C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A152D0B4-55C6-4FAE-A434-ADB1E2F37174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A152D0B4-55C6-4FAE-A434-ADB1E2F37174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A152D0B4-55C6-4FAE-A434-ADB1E2F37174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A152D0B4-55C6-4FAE-A434-ADB1E2F37174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BAD69A7-063A-48E1-8482-D3E537EFE9F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BAD69A7-063A-48E1-8482-D3E537EFE9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BAD69A7-063A-48E1-8482-D3E537EFE9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BAD69A7-063A-48E1-8482-D3E537EFE9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3F6455-6787-4D25-8460-E5E001138112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3F6455-6787-4D25-8460-E5E001138112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3F6455-6787-4D25-8460-E5E001138112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3F6455-6787-4D25-8460-E5E001138112}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

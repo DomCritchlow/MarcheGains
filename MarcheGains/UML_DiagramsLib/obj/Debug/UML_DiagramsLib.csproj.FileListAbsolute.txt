@@ -1,0 +1,5 @@
+C:\Users\physstud\Desktop\MarcheGains\UML_DiagramsLib\bin\Debug\UML_DiagramsLib.dll
+C:\Users\physstud\Desktop\MarcheGains\UML_DiagramsLib\bin\Debug\UML_DiagramsLib.pdb
+C:\Users\physstud\Desktop\MarcheGains\UML_DiagramsLib\obj\Debug\UML_DiagramsLib.csprojResolveAssemblyReference.cache
+C:\Users\physstud\Desktop\MarcheGains\UML_DiagramsLib\obj\Debug\UML_DiagramsLib.dll
+C:\Users\physstud\Desktop\MarcheGains\UML_DiagramsLib\obj\Debug\UML_DiagramsLib.pdb

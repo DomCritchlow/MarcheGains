@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" xmlns:dm11="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm12="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="7241ec2b-48dd-439d-8ae8-ea98c311f017" name="Activity" linkedPackageId="8ec1f6bf-4b78-43d0-a477-04724999ece0" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="419afcd0-c832-400f-a381-79352c604f47">
+      <profileInstance Id="18543a20-71a0-4000-a98f-f1db88a1288b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="79c2cd8b-b7dc-4b08-82b1-e4d2cce6718c">
+      <profileInstance Id="f2d255fe-d8a2-4a56-8bf0-730762a9f2bc" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="487d3eb8-6645-47ca-9180-4a44ba0c6461" name="Activity" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="84c9e1b4-64e9-4165-b2d9-64983608c59a" />
+        <nodes>
+          <initialNode Id="2abd6c1d-a52e-4c10-bb6a-d5843d07c2f2" name="Initial1" isLeaf="false">
+            <elementDefinition Id="40006adb-59e3-4db7-9d03-a298c3b1fbeb" />
+            <flowNodeTargets>
+              <controlFlow Id="037231ba-46aa-41bc-a85f-de77d7fa595b" isLeaf="false">
+                <opaqueActionMoniker Id="30e6cb8d-e5db-4639-9431-2b20f93d6ad8" LastKnownName="Login With Credentials" />
+                <elementDefinition Id="b762ab20-c247-4088-bb6a-70cfdac030c4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="30e6cb8d-e5db-4639-9431-2b20f93d6ad8" name="Login With Credentials" isLeaf="false">
+            <elementDefinition Id="721fb75c-95a8-4c2e-86f4-a13b4174f631" />
+            <flowNodeTargets>
+              <controlFlow Id="6a04319c-6134-4fb5-9a0d-b73fe614d1bb" isLeaf="false">
+                <forkNodeMoniker Id="ad7c97ac-b753-4ae6-8888-210d50d9a67e" LastKnownName="Fork1" />
+                <elementDefinition Id="e96cb287-6565-4322-a4a2-2ab29cbe8857" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="a94fcb76-a2b8-4e3f-b749-1ed79d136348" name="View Virtual Bank Account" isLeaf="false">
+            <elementDefinition Id="f0c92843-ff1a-4081-88a0-11452ff9e654" />
+            <flowNodeTargets>
+              <controlFlow Id="38b12bc0-e3b2-4ab6-ad74-330b5f86b660" isLeaf="false">
+                <decisionNodeMoniker Id="27c07727-d4b1-4ba6-866f-ea34e070b26d" LastKnownName="Decision1" />
+                <elementDefinition Id="6e61c2a8-1f99-4872-9d28-b018dca65f8e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f01fca86-abcd-42df-bc1a-7f999dabae2d" name="View Potential Stocks" isLeaf="false">
+            <elementDefinition Id="2c5239c1-2de9-4ad7-a682-b6191bc0900e" />
+            <flowNodeTargets>
+              <controlFlow Id="855640d3-8c75-41d6-b899-85566bb96bb9" isLeaf="false">
+                <forkNodeMoniker Id="f0dbb4c6-e1bd-44d5-9309-cb3c86c498e8" LastKnownName="Fork4" />
+                <elementDefinition Id="7dc7590c-aaed-44a6-8a13-15d5a7e7f3e5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode Id="ad7c97ac-b753-4ae6-8888-210d50d9a67e" name="Fork1" isLeaf="false">
+            <elementDefinition Id="cde732d1-19ac-4b89-97ec-8619738fe13c" />
+            <flowNodeTargets>
+              <controlFlow Id="31622786-c63e-405f-b205-9ba3a57ab3b1" isLeaf="false">
+                <opaqueActionMoniker Id="a94fcb76-a2b8-4e3f-b749-1ed79d136348" LastKnownName="View Virtual Bank Account" />
+                <elementDefinition Id="48f25edc-2389-4069-9b1c-dd758b7dc2bd" />
+              </controlFlow>
+              <controlFlow Id="b4ffac63-da07-48ff-8e6b-1d0a7ffbf1af" isLeaf="false">
+                <opaqueActionMoniker Id="f01fca86-abcd-42df-bc1a-7f999dabae2d" LastKnownName="View Potential Stocks" />
+                <elementDefinition Id="e9c89bf4-eb63-463a-bc95-4202e9dd9ba7" />
+              </controlFlow>
+              <controlFlow Id="ec67ade4-c27b-4da1-9e45-34d12d7fc809" isLeaf="false">
+                <opaqueActionMoniker Id="e1ef9f1a-192d-4587-9e16-d807211bc6cd" LastKnownName="View Purchased Stocks" />
+                <elementDefinition Id="f825238e-df07-4226-9e91-187d5b78d387" />
+              </controlFlow>
+              <controlFlow Id="036024ec-33d1-4807-a040-0080f39e226b" isLeaf="false">
+                <opaqueActionMoniker Id="ea891ff0-2531-4a58-a05e-acdff59d1db4" LastKnownName="Purchase Stocks" />
+                <elementDefinition Id="fb1ecac2-8ba7-45ab-90b5-618923eeee09" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <decisionNode Id="27c07727-d4b1-4ba6-866f-ea34e070b26d" name="Decision1" isLeaf="false">
+            <elementDefinition Id="50a452f7-5105-4012-a69e-4426751cfbf1" />
+            <flowNodeTargets>
+              <controlFlow Id="4d4fc276-9299-488c-867c-5ee1ba8a5f33" isLeaf="false">
+                <opaqueActionMoniker Id="3fcebc72-b5b2-4920-afb8-ece086765a5e" LastKnownName="Deposit Money" />
+                <elementDefinition Id="737dfedb-a6b4-4603-aef4-ad0a3d0159ba" />
+              </controlFlow>
+              <controlFlow Id="719c5b7b-ed29-4bc0-b368-178ec1e1d1d2" isLeaf="false">
+                <opaqueActionMoniker Id="8dd47f2a-0465-4f77-93ab-ac7d1dc2af9b" LastKnownName="Withdraw Money" />
+                <elementDefinition Id="91497430-d556-41da-80d3-4730d602de8e" />
+              </controlFlow>
+              <controlFlow Id="7b88db6d-a212-4a85-82b2-345ec0dcdb50" isLeaf="false">
+                <mergeNodeMoniker Id="88dbe567-98db-4d1c-b474-4b8db7553ce6" LastKnownName="Merge1" />
+                <elementDefinition Id="874f2e1f-1606-4a9c-b561-5e7f73834064" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="e1ef9f1a-192d-4587-9e16-d807211bc6cd" name="View Purchased Stocks" isLeaf="false">
+            <elementDefinition Id="448b59c7-a975-4a7a-800e-5dd1facbd44b" />
+            <flowNodeTargets>
+              <controlFlow Id="2b756d90-72df-4f15-a66b-075d8db60985" isLeaf="false">
+                <forkNodeMoniker Id="c30e22bb-9248-48cf-9bc2-e4e244fb80ea" LastKnownName="Fork2" />
+                <elementDefinition Id="37c667a3-e46a-4e5c-a437-b940a3af7362" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="ea891ff0-2531-4a58-a05e-acdff59d1db4" name="Purchase Stocks" isLeaf="false">
+            <elementDefinition Id="432cbc3d-e67c-420f-8a97-b6bd5d117966" />
+            <flowNodeTargets>
+              <controlFlow Id="ff8a1063-1202-4e6e-9d06-50590a649ba5" isLeaf="false">
+                <opaqueActionMoniker Id="6d168d6a-43d5-4922-be4d-fae09733c492" LastKnownName="Enter Stock or Fund Ticker Name" />
+                <elementDefinition Id="38b6811c-2e98-45f7-84eb-cfa3665541d1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="3fcebc72-b5b2-4920-afb8-ece086765a5e" name="Deposit Money" isLeaf="false">
+            <elementDefinition Id="a1ce8443-f44f-49b4-98da-25db599fab10" />
+            <flowNodeTargets>
+              <controlFlow Id="9cc601fa-664c-4569-86ec-46e1a6a3ad44" isLeaf="false">
+                <mergeNodeMoniker Id="88dbe567-98db-4d1c-b474-4b8db7553ce6" LastKnownName="Merge1" />
+                <elementDefinition Id="369f14be-8562-4db9-b6c7-a8b5cee09ff2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="8dd47f2a-0465-4f77-93ab-ac7d1dc2af9b" name="Withdraw Money" isLeaf="false">
+            <elementDefinition Id="3159e17a-19a5-438a-b4ca-57b0905355ef" />
+            <flowNodeTargets>
+              <controlFlow Id="9136be22-c32d-46b0-aaef-76edd649220a" isLeaf="false">
+                <mergeNodeMoniker Id="88dbe567-98db-4d1c-b474-4b8db7553ce6" LastKnownName="Merge1" />
+                <elementDefinition Id="af099ae0-e714-41d8-861a-f9c493e9ab79" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <mergeNode Id="88dbe567-98db-4d1c-b474-4b8db7553ce6" name="Merge1" isLeaf="false">
+            <elementDefinition Id="77ce5816-c042-4753-9afd-09512ce959d6" />
+            <flowNodeTargets>
+              <controlFlow Id="6cf88428-5e24-4d7f-981e-dda7c567efe5" isLeaf="false">
+                <opaqueActionMoniker Id="ec4bcc7c-4c9a-452f-8775-d9d522801e0c" LastKnownName="View Transaction History" />
+                <elementDefinition Id="9eea0b68-137b-417e-9824-9c04d363c72d" />
+              </controlFlow>
+            </flowNodeTargets>
+          </mergeNode>
+          <opaqueAction Id="ec4bcc7c-4c9a-452f-8775-d9d522801e0c" name="View Transaction History" isLeaf="false">
+            <elementDefinition Id="545d7502-f6de-4cef-be66-10f17ec0ec75" />
+            <flowNodeTargets>
+              <controlFlow Id="bb62f42d-0e68-4cb4-9863-7c382bccdfe6" isLeaf="false">
+                <joinNodeMoniker Id="9f888c26-e168-4674-ab83-124014a300d4" LastKnownName="Join2" />
+                <elementDefinition Id="e3ddc171-5764-476a-9a41-aff4bb907e2e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="6d168d6a-43d5-4922-be4d-fae09733c492" name="Enter Stock or Fund Ticker Name" isLeaf="false">
+            <elementDefinition Id="13deac58-6d3e-4752-9624-4b09bebc6e8f" />
+            <flowNodeTargets>
+              <controlFlow Id="c0bb9b85-4f50-43c5-9db2-af83453c734e" isLeaf="false">
+                <opaqueActionMoniker Id="756ddc58-af9e-4d62-815b-1a38056b345b" LastKnownName="Determine Amount of Investment" />
+                <elementDefinition Id="c0331d00-4f08-48fb-8c49-14aac0ad8a56" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="756ddc58-af9e-4d62-815b-1a38056b345b" name="Determine Amount of Investment" isLeaf="false">
+            <elementDefinition Id="d23c3c93-70b6-4935-b84d-1b2fa90e29ac" />
+            <flowNodeTargets>
+              <controlFlow Id="c842a837-dffc-4901-af69-f62a162142b9" isLeaf="false">
+                <joinNodeMoniker Id="ed2a8156-b101-4725-acf2-fdfb0e8596d1" LastKnownName="Join1" />
+                <elementDefinition Id="fa97ac2f-74da-45e5-91c1-6f8fe3a2c703" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="e20d4774-28a9-472e-8f74-a8ae763331ae" name="Send Information" isLeaf="false">
+            <elementDefinition Id="cad677a4-c781-4658-b837-54004c7c7c0f" />
+            <flowNodeTargets>
+              <controlFlow Id="ab8bec3a-ab8e-4536-80f3-3c1ca2f70be1" isLeaf="false">
+                <joinNodeMoniker Id="9f888c26-e168-4674-ab83-124014a300d4" LastKnownName="Join2" />
+                <elementDefinition Id="6d22e0bd-6e9f-4462-b392-5631964a0a6c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9de40420-b839-49a6-9018-7213b03993e1" name="Confirm Investment" isLeaf="false">
+            <elementDefinition Id="3d19a289-6b62-47ed-801e-ada5494a2604" />
+            <flowNodeTargets>
+              <controlFlow Id="ce38fc91-29c7-4334-94b7-7b94652898c7" isLeaf="false">
+                <opaqueActionMoniker Id="e20d4774-28a9-472e-8f74-a8ae763331ae" LastKnownName="Send Information" />
+                <elementDefinition Id="2df92172-768a-4a3a-84da-53b4c2996df6" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="0b8929fc-a13e-4ca3-8394-7c2feaca8e88" name="View Trends" isLeaf="false">
+            <elementDefinition Id="c7409dd3-f74b-4804-b2b4-71a77814f2da" />
+            <flowNodeTargets>
+              <controlFlow Id="4be1ed1d-407e-45e2-9c5d-4bbdb4774d9b" isLeaf="false">
+                <forkNodeMoniker Id="d9d33eea-8cd8-4078-97ed-1dcbb76eed71" LastKnownName="Fork3" />
+                <elementDefinition Id="60f2c188-d245-4e76-b16d-ce251eeec726" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="09d0f0d1-a911-4f8c-83f2-f8da8bfcee54" name="Sell Stocks" isLeaf="false">
+            <elementDefinition Id="6b4a020f-a7c8-43f3-8a71-d63fdfb77007" />
+            <flowNodeTargets>
+              <controlFlow Id="08fdf632-bb1e-4e33-82db-84ccbbb83101" isLeaf="false">
+                <joinNodeMoniker Id="ed2a8156-b101-4725-acf2-fdfb0e8596d1" LastKnownName="Join1" />
+                <elementDefinition Id="2bf4a501-760f-469a-b634-1e3f77c92bc4" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode Id="c30e22bb-9248-48cf-9bc2-e4e244fb80ea" name="Fork2" isLeaf="false">
+            <elementDefinition Id="7511660d-1305-4686-8b58-6f7948c4f360" />
+            <flowNodeTargets>
+              <controlFlow Id="f88c5789-cbe6-4c16-abf4-8f54b9173111" isLeaf="false">
+                <opaqueActionMoniker Id="09d0f0d1-a911-4f8c-83f2-f8da8bfcee54" LastKnownName="Sell Stocks" />
+                <elementDefinition Id="1395f114-1ab9-4d27-9277-c2344a93accf" />
+              </controlFlow>
+              <controlFlow Id="5d566d99-7dd8-4571-ac72-ec54853a17d7" isLeaf="false">
+                <opaqueActionMoniker Id="0b8929fc-a13e-4ca3-8394-7c2feaca8e88" LastKnownName="View Trends" />
+                <elementDefinition Id="1dc1a6a2-bca4-4cf5-bfd8-c0222c666616" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <joinNode Id="ed2a8156-b101-4725-acf2-fdfb0e8596d1" name="Join1" isLeaf="false">
+            <elementDefinition Id="facf0d5d-a805-4b1e-a9b6-40436f9e69ab" />
+            <flowNodeTargets>
+              <controlFlow Id="c9d9183d-551b-4c91-8214-b555c7787bf0" isLeaf="false">
+                <opaqueActionMoniker Id="9de40420-b839-49a6-9018-7213b03993e1" LastKnownName="Confirm Investment" />
+                <elementDefinition Id="025cc607-92bf-47d8-9c7d-6a8985e72070" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <forkNode Id="d9d33eea-8cd8-4078-97ed-1dcbb76eed71" name="Fork3" isLeaf="false">
+            <elementDefinition Id="bb37626c-411c-48a9-b4a7-b74d7048dd37" />
+            <flowNodeTargets>
+              <controlFlow Id="fdea3533-e064-47d2-a20d-c4130795ba1e" isLeaf="false">
+                <opaqueActionMoniker Id="fb4f55f1-c2a0-493f-8e42-120e15dd0e25" LastKnownName="View Past Statistics" />
+                <elementDefinition Id="445392ff-519e-451e-b407-3f302465fe62" />
+              </controlFlow>
+              <controlFlow Id="12037482-290f-4521-a280-bb14276fee5c" isLeaf="false">
+                <opaqueActionMoniker Id="f398898c-4e04-45d0-b609-e50ba4036cdd" LastKnownName="View Current Statistics" />
+                <elementDefinition Id="24558d42-88e4-4697-a48c-029eca631ff8" />
+              </controlFlow>
+              <controlFlow Id="8976bfe1-6f27-4366-96f8-ea3341d43c88" isLeaf="false">
+                <opaqueActionMoniker Id="b526aa6b-7e68-416d-a2ad-f81bb7550baa" LastKnownName="View Future Predictions" />
+                <elementDefinition Id="8c70a006-2b2d-4a1a-b18c-2969e9fb167a" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction Id="fb4f55f1-c2a0-493f-8e42-120e15dd0e25" name="View Past Statistics" isLeaf="false">
+            <elementDefinition Id="b17048e9-af10-4ff1-ac06-8f35f0b2a7e4" />
+            <flowNodeTargets>
+              <controlFlow Id="f1228c78-5ac0-4065-af2b-280600bee564" isLeaf="false">
+                <joinNodeMoniker Id="9f888c26-e168-4674-ab83-124014a300d4" LastKnownName="Join2" />
+                <elementDefinition Id="8855bb20-3925-464c-8b16-06388b5b1081" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f398898c-4e04-45d0-b609-e50ba4036cdd" name="View Current Statistics" isLeaf="false">
+            <elementDefinition Id="1fd82a9d-4169-4419-b518-834abf3a2e9f" />
+            <flowNodeTargets>
+              <controlFlow Id="f6c8b592-4a16-43a9-871f-aa46d5f0ad45" isLeaf="false">
+                <joinNodeMoniker Id="9f888c26-e168-4674-ab83-124014a300d4" LastKnownName="Join2" />
+                <elementDefinition Id="17d0e3ae-0fd7-47ca-8c1e-490e41f29b00" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="b526aa6b-7e68-416d-a2ad-f81bb7550baa" name="View Future Predictions" isLeaf="false">
+            <elementDefinition Id="53f8546e-1e03-448c-ab93-6e2b835c8c75" />
+            <flowNodeTargets>
+              <controlFlow Id="b52804ca-4934-4d66-a8f4-7f232f089462" isLeaf="false">
+                <joinNodeMoniker Id="9f888c26-e168-4674-ab83-124014a300d4" LastKnownName="Join2" />
+                <elementDefinition Id="9e696dae-b25a-470a-8b84-4b5d442e573f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9fcb2551-0073-4ebf-acb8-cd6f5405d84b" name="Close Form" isLeaf="false">
+            <elementDefinition Id="d0db666f-fd1b-45dc-a853-c6471e3bff30" />
+            <flowNodeTargets>
+              <controlFlow Id="b5bd98d4-e2b6-4aaa-9fe4-48c227599811" isLeaf="false">
+                <activityFinalNodeMoniker Id="1aeeb81e-b091-4171-93c3-e60ef4710260" LastKnownName="ActivityFinal1" />
+                <elementDefinition Id="e7672f37-c578-428b-b2e4-ced9bf0e820f" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <forkNode Id="f0dbb4c6-e1bd-44d5-9309-cb3c86c498e8" name="Fork4" isLeaf="false">
+            <elementDefinition Id="9033b5a7-cc33-4c64-97b4-d80df4fc257b" />
+            <flowNodeTargets>
+              <controlFlow Id="993e7f54-c025-4369-ad07-d8f6db728899" isLeaf="false">
+                <opaqueActionMoniker Id="c6059545-1acf-4314-9442-d73977cf7376" LastKnownName="Low Risk Stocks" />
+                <elementDefinition Id="27d93813-8530-46ee-8ee1-c0ad1a1f2626" />
+              </controlFlow>
+              <controlFlow Id="b578914c-7775-4a32-8108-2e1f0df14f03" isLeaf="false">
+                <opaqueActionMoniker Id="f9bc99f6-c8fd-4ae4-aea0-7065d9af974f" LastKnownName="High Risk Stocks" />
+                <elementDefinition Id="311bbc90-9de3-415c-961a-2795ce771ac1" />
+              </controlFlow>
+            </flowNodeTargets>
+          </forkNode>
+          <opaqueAction Id="c6059545-1acf-4314-9442-d73977cf7376" name="Low Risk Stocks" isLeaf="false">
+            <elementDefinition Id="f7ca0927-3dbf-44d3-ab0d-0c8e32b1feb1" />
+            <flowNodeTargets>
+              <controlFlow Id="afba66c2-bb39-4024-80bb-9bea8800c8a7" isLeaf="false">
+                <joinNodeMoniker Id="9f888c26-e168-4674-ab83-124014a300d4" LastKnownName="Join2" />
+                <elementDefinition Id="f0624660-904f-44eb-9d41-6ee8361228f5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f9bc99f6-c8fd-4ae4-aea0-7065d9af974f" name="High Risk Stocks" isLeaf="false">
+            <elementDefinition Id="cdc196b8-5408-4f8a-a298-7974a0eeeb8b" />
+            <flowNodeTargets>
+              <controlFlow Id="4fd2032e-c34c-4780-b666-8de7676f45d5" isLeaf="false">
+                <joinNodeMoniker Id="9f888c26-e168-4674-ab83-124014a300d4" LastKnownName="Join2" />
+                <elementDefinition Id="5ed72981-df26-4f31-a658-c591ff7eb6e7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <joinNode Id="9f888c26-e168-4674-ab83-124014a300d4" name="Join2" isLeaf="false">
+            <elementDefinition Id="f949191e-58da-48da-b457-52eb945affb2" />
+            <flowNodeTargets>
+              <controlFlow Id="b6d159f6-ab80-4619-80cc-da433506bc02" isLeaf="false">
+                <opaqueActionMoniker Id="9fcb2551-0073-4ebf-acb8-cd6f5405d84b" LastKnownName="Close Form" />
+                <elementDefinition Id="1edd3713-17e3-4ebe-aa5d-c2a41dae51e7" />
+              </controlFlow>
+            </flowNodeTargets>
+          </joinNode>
+          <activityFinalNode Id="1aeeb81e-b091-4171-93c3-e60ef4710260" name="ActivityFinal1" isLeaf="false">
+            <elementDefinition Id="f1b14da4-d48f-47e4-b0be-44dbd0b0082b" />
+          </activityFinalNode>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="8ec1f6bf-4b78-43d0-a477-04724999ece0" name="UML_Diagrams">
+    <elementDefinition Id="da6ea0fb-ce49-45fe-a762-ec68912023ed" />
+  </package>
+</activityRootModel>

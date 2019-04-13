@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="rs.xsl" ?>
+<doc>
+    <assembly>
+        <name>MarcheGains</name>
+        <version>1.0</version>
+    </assembly>
+
+    <requirements>
+
+        <requirement name="F:Virtual_Bank_Account">
+            <summary>
+            The Custumer should be able to set up a virtual Bank account that holds values for money available to invest, and investments in each stock or mutual fund.
+            </summary>
+        </requirement>
+
+      <requirement name="F:Bank_Account_Information">
+        <summary>
+          Holds Customers Bank Account information for final investment stage, that will be sent with investment information.
+        </summary>
+      </requirement>
+
+        <requirement name="F:Personal_Investments">
+            <summary>
+            The Custumer should be able to see investments, whether they are going up or down. 
+            </summary>
+        </requirement>
+
+        <requirement name="F:Personal_Investment_Trends">
+            <summary>
+            The Custumer should be able to graphically see personal trend of stock or mutual fund investment.
+            </summary>
+        </requirement>
+
+        <requirement name="F:Personal_Investment_Recommendation">
+            <summary>
+             The Custumer should be able to view possible future daily trends
+            </summary>
+        </requirement>
+
+        <requirement name="F:Statistics_Personal_Investment">
+            <summary>
+            The Custumer should be able to view statistics on stocks invested in over time of ownership.
+            </summary>
+        </requirement>
+      
+      <requirement name="F:Trend_Graphics">
+        <summary>
+          Graphical view of trends of owned stocks and other stocks.
+        </summary>
+      </requirement>
+
+        <requirement name="F:General_Stock_Statistics">
+            <summary>
+           The Custumer should be able to view Statistics of all stocks individually over their life time.
+            </summary>
+        </requirement>
+
+        <requirement name="F:Homepage_News">
+            <summary>
+            After log in the Custumer should be able to view current high and low stocks in the world. Stock Exchange opening time and closing times.
+            </summary>
+        </requirement>
+
+        <requirement name="F:Investment_Process">
+            <summary>
+             Customer will enter this when he decides to make an investment and specifies the excact number of shares to purchase.
+            </summary>
+        </requirement>
+
+      <requirement name="F:Investment_Preview">
+        <summary>
+          Customer will be able view the potential investments that he/she has made.
+        </summary>
+        </requirement>
+      <requirement name="C:Operating System">
+        <summary>
+          This will be a Windows application only.
+        </summary>
+      </requirement>
+      
+        <requirement name="R:Checkout_Investment">
+          <summary>
+            Checking out will produce a file that will be sent to the investment firm with all necessary information to finilaize the purchase. This will also update current bank information and available funds.
+          </summary>
+        </requirement>
+
+      <requirement name="R:API_Call">
+        <summary>
+          The Software has to be able to access the internet and the server of the API has to be running for any statistics or searches.
+        </summary>
+      </requirement>
+
+    </requirements>
+</doc>

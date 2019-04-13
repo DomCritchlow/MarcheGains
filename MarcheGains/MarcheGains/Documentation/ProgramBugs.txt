@@ -1,0 +1,10 @@
+﻿Current Bugs in Program:
+
+1. Too many API calls in a short time period leads to program malfunction.
+	Including empty stock information
+
+2. Program freezes when caught in recursive API calls, due to API-side limitations.
+
+3. Program currently has multiple layers of API calls to ensure data movement, creating long wait times.
+ 
+

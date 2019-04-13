@@ -1,0 +1,12 @@
+﻿Things to update in next version : 
+
+1. Implementing various graphics components, including pie charts and bar graphs.
+
+2. Including predictions on the best stock to choose.
+
+3. Creating a more customer friendly interface.
+
+4. Including a statistics package for analyzing data.
+
+5. Things I learned in Boating School :: Slow down. Sharp turns,
+
